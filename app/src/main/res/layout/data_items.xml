@@ -1,0 +1,46 @@
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="210dp"
+        tools:context="com.example.rohit.task.Activities"
+        android:orientation="vertical"
+        android:background="@drawable/data_rounded"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/detail_view">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:id="@+id/cover"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:src="@drawable/book_small" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/book"
+            android:gravity="center"
+            android:hint="Book&apos;s Name"
+            android:shadowColor="#ff7e7e7e"
+            android:textStyle="bold"
+            android:textSize="21dp"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/author"
+            android:gravity="center"
+            android:hint="Author&apos;s Name"
+            android:textColor="#ffc9c9c9"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
